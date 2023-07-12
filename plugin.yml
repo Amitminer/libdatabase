@@ -1,0 +1,7 @@
+---
+name: libdatabase
+version: 0.0.1
+author: AmitxD
+main: libdatabase\libdatabase
+api: 5.1.3
+...
