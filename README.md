@@ -14,8 +14,6 @@ use libdatabase\libdatabase;
 libdatabase::initDatabase($plugin);
 ```
 
-Make sure to replace `"/path/to/database.db"` with the actual file path to your database file.
-
 ### Adding a Player
 
 To add a player to the database, you can use the `addPlayer` method:
@@ -23,7 +21,7 @@ To add a player to the database, you can use the `addPlayer` method:
 ```php
 use libdatabase\libdatabase;
 
-$playerName = "JohnDoe";
+$playerName = "Steve";
 
 // Add the player to the database
 libdatabase::addPlayer($playerName);
@@ -36,7 +34,7 @@ You can check if a player exists in the database using the `playerExists` method
 ```php
 use libdatabase\libdatabase;
 
-$playerName = "JohnDoe";
+$playerName = "Steve";
 
 // Check if the player exists in the database
 if (libdatabase::playerExists($playerName)) {
@@ -53,7 +51,7 @@ To remove a player from the database, you can use the `removePlayer` method:
 ```php
 use libdatabase\libdatabase;
 
-$playerName = "JohnDoe";
+$playerName = "Steve";
 
 // Remove the player from the database
 libdatabase::removePlayer($playerName);
