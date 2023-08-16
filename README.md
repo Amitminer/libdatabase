@@ -63,4 +63,4 @@ Contributions to `libdatabase` are welcome! If you find a bug or have a feature 
 
 ## Credits
 
-`libdatabase` is developed and maintained by [Your Name](https://github.com/Amitminer).
+`libdatabase` is developed and maintained by [Amitminer](https://github.com/Amitminer).
